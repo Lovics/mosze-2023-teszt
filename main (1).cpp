@@ -4,19 +4,19 @@ constexpr int N_ELEMENTS = 100;
 
 int main()
 {
-    int *b = new int[NELEMENTS];
-    std::cout << '1-100 ertekek duplazasa'
-    for (int i = 0;)
+    int *b = new int[NELEMENTS];    // NELEMENTS rosszul van leírva
+    std::cout << '1-100 ertekek duplazasa' //Hiányzik egy pontosvessző
+    for (int i = 0;) //Hiányzik a ciklus feltételének a megadása
     {
         b[i] = i * 2;
     }
-    for (int i = 0; i; i++)
+    for (int i = 0; i; i++) //ciklus feltételének értéke mindig hamis, így a ciklus soha nem fut le.
     {
-        std::cout << "Ertek:"
+        std::cout << "Ertek:" //Hiányzik egy pontosvessző
     }    
     std::cout << "Atlag szamitasa: " << std::endl;
-    int atlag;
-    for (int i = 0; i < N_ELEMENTS, i++)
+    int atlag; //A változót inicializálni kell
+    for (int i = 0; i < N_ELEMENTS, i++) //A vessző helyett pontosvesszőt kell használni
     {
         atlag += b[i]
     }
