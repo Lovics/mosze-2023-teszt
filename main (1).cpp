@@ -23,6 +23,6 @@ int main()
     atlag /= N_ELEMENTS;
     std::cout << "Atlag: " << atlag << std::endl;
     delete[] b; 
-    std::cout << "Szeva Lovics!" << endl; // Cout hozzáadva
+    std::cout << "Szeva Lovics!" << endl; // Cout hozzáadva 
     return 0;
 }
