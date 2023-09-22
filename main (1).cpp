@@ -23,5 +23,6 @@ int main()
     atlag /= N_ELEMENTS;
     std::cout << "Atlag: " << atlag << std::endl;
     delete[] b; // Ne felejtsd el felszabadítani a dinamikusan foglalt memóriát
+    cout << "Szeva Lovics!" << endl; // Cout hozzáadva
     return 0;
 }
